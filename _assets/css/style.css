@@ -1,0 +1,118 @@
+.markdown-section {
+    text-align: justify;
+}
+
+/* Align the <h1/2/3/4/5/6> elements with the little arrow of the details */
+details > summary > h1,
+details > summary > h2,
+details > summary > h3,
+details > summary > h4,
+details > summary > h5,
+details > summary > h6 {
+    display: initial !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 10px !important;
+}
+
+/* Align the elements inside <h1/2/3/4/5/6> elements with the little arrow of the details */
+details > summary > h1 *,
+details > summary > h2 *,
+details > summary > h3 *,
+details > summary > h4 *,
+details > summary > h5 *,
+details > summary > h6 * {
+    display: initial !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* Make nicer cursor while hovering a summary */
+details > summary {
+    width: fit-content;
+    cursor: pointer;
+}
+
+
+/* Make a nice style for the navigation items that are based on files */
+.sidebar li > p > a {
+    font-weight: 700;
+    margin: 0;
+    color: #364149;
+}
+
+
+/* Make a subsidiary warn class but for <div> and not <p> */
+.markdown-section div.warn {
+    background: rgba(66, 185, 131, .1);
+    border-radius: 2px;
+    padding: 1rem;
+    margin: 1.2em 0;
+}
+
+.markdown-section div.warn ul {
+    margin: 0;
+}
+
+
+
+#results-grid {
+    --spacing : 5rem;
+
+    display: grid;
+
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: underline var(--theme-color);
+}
+
+#results-grid > div > p {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+
+/* Make the result grid responsive */
+@media screen and (max-width: 900px) {
+    #results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #results-grid > div {
+        padding-bottom: calc(var(--spacing) / 2);
+    }
+
+    #results-grid > div:not(:first-child) {
+        border-top: 1px solid rgba(0,0,0,.07);
+        padding-top: calc(var(--spacing)/2);
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #results-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #results-grid > div:nth-child(2n) {
+        padding-left: calc(var(--spacing) / 2);
+    }
+
+    #results-grid > div:not(:nth-child(2n)) {
+        padding-right: calc(var(--spacing) / 2);
+        border-right: 1px solid rgba(0, 0, 0, .07);
+    }
+}
+
+
+/* Make all image non-draggable */
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
