@@ -53,11 +53,11 @@ Then go to the `Plugins` page in your Wordpress admin panel and activate the plu
 ## Configure the plugin
 
 Now that the plugin is installed, you can configure it. \
-In the vertical navigation bar on the left, click on the `Scholar Scraper` menu item (the icon should look like a square academic cap). \
+In the vertical navigation bar on the left, click on the `Scholar Scraper` menu item (the icon should look like a square
+academic cap). \
 You should see the plugin configuration page. Like the following :
 
 ![Plugin configuration page](../_assets/images/plugin-configuration-page.jpg ':size=100%')
-
 
 ?> The plugin configuration options are explained in the [Configuration Guide][configuration-guide]
 
@@ -67,7 +67,8 @@ You should see the plugin configuration page. Like the following :
 
 Now that the plugin is installed and configured, you can include the Google Scholar papers in a page or post. \
 To do so, you can use the Gutenberg block provided by the plugin. \
-To add the Gutenberg block to a page or post, click on the `Add block` button in the editor and search for `Scholar Scraper`. \
+To add the Gutenberg block to a page or post, click on the `Add block` button in the editor and search
+for `Scholar Scraper`. \
 You should see the `Scholar Scraper` block in the search results. Click on it to add it to the page or post.
 
 ![Gutenberg block](../_assets/images/gutenberg-block.jpg ':size=100%')

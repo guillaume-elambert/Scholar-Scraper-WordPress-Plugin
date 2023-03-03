@@ -33,9 +33,8 @@ window.$docsify = {
             hook.beforeEach(function (markdown) {
                 url = 'https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin/blob/docs/' + vm.route.file;
                 let editMarkdown = '[:memo: Edit Document](' + url + ')\n';
-                // Get the next and previous links
 
-
+                markdown = replaceFontAwesomeIcons(markdown);
 
                 return (
                     editMarkdown +
@@ -93,5 +92,60 @@ function handleLinksInSummary() {
 
             details.toggleAttribute('open');
         });
+    });
+}
+
+
+/**
+ * Replace all the :fa-type the icon: color: with the corresponding iconify icon
+ * @param markdown the markdown to parse
+ */
+function replaceFontAwesomeIcons(markdown) {
+    const regex = /:(fa(?:-\w+)?) ?([\w-]+)? ?([#\w]+)? ?([\w-.]+)?:/g;
+
+    //Should match numeric values with or without units
+    const regexNumericSize = /(\d+(\.\d+)?)(px|em|rem|%)?/;
+
+
+    return markdown.replaceAll(regex, function (match, style, icon, color, size) {
+        // Check if icon starts with "fa-" and if not, add it
+        if (icon && !icon.startsWith('fa-')) {
+            icon = 'fa-' + icon;
+        }
+
+        if(icon === 'fa-circle-1') {
+            console.log(style, icon, color, size);
+        }
+
+        let sizeClass = '';
+        let numericSize = '';
+
+
+        let css = "";
+
+        if(size){
+            // Check if size is a numeric value and return the matched values
+            const match = size.match(regexNumericSize);
+
+            // Entering : the size is a numeric value
+            if(match){
+                numericSize = match[1] + (match[3] || 'em');
+                css += `font-size: ${numericSize};`;
+            }
+            // Check if sizeClass starts with "fa-" and if not, add it
+            else if (!sizeClass.startsWith('fa-')) {
+                sizeClass = 'fa-' + sizeClass;
+            }
+        }
+
+        if (color) {
+            css += `color: ${color || 'currentColor'};`;
+        }
+
+        if (css !== "") {
+            css = `style="${css}"`;
+        }
+
+        return `<i class="${style + ' ' || ''}${icon + ' ' || ''}${sizeClass || ''}" ${css || ''}></i>`;
     });
 }
