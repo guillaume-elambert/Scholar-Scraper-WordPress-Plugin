@@ -36,10 +36,15 @@ details > summary {
 
 
 /* Make a nice style for the navigation items that are based on files */
-.sidebar li > p > a {
-    font-weight: 700;
-    margin: 0;
-    color: #364149;
+.sidebar-nav > ul > li > a,
+.sidebar-nav > ul > li > p > a {
+    font-weight: 700 !important;
+    margin: 0 !important;
+    color: #364149 !important;
+}
+
+.sidebar-nav > ul > li:not(:first-child) {
+    margin-top: 1em !important;
 }
 
 
@@ -115,3 +120,27 @@ img {
     -ms-user-select: none;
 }
 
+/* Navbar styling : making the link less ugly on small screen */
+.app-nav > ul {
+    padding-inline-start: 5px;
+}
+
+/* Logo sizing */
+#logo {
+    width: 200px;
+    height: auto;
+
+    /* Set transition for size changes */
+    transition: width 0.5s, height 0.5s;
+}
+
+/* Ensure that the logo is not covering the navbar */
+@media screen and (max-width: 500px) {
+    .cover-main {
+        padding-top: 60px
+    }
+
+    #logo {
+        width: 150px;
+    }
+}

@@ -1,4 +1,4 @@
-![logo](_assets/media/google-scholar.svg ':size=200x200')
+![logo](_assets/media/google-scholar.svg ':id=logo')
 
 # Scholar Scraper <small>1.2.2</small>
 

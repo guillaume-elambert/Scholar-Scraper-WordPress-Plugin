@@ -101,7 +101,7 @@ function handleLinksInSummary() {
  * @param markdown the markdown to parse
  */
 function replaceFontAwesomeIcons(markdown) {
-    const regex = /:(fa(?:-\w+)?) ?([\w-]+)? ?([#\w]+)? ?([\w-.]+)?:/g;
+    const regex = /:(fa(?:-\w+)?) ([\w-]+) ?([#\w]+)? ?([\w-.]+)?:/g;
 
     //Should match numeric values with or without units
     const regexNumericSize = /(\d+(\.\d+)?)(px|em|rem|%)?/;
@@ -111,10 +111,6 @@ function replaceFontAwesomeIcons(markdown) {
         // Check if icon starts with "fa-" and if not, add it
         if (icon && !icon.startsWith('fa-')) {
             icon = 'fa-' + icon;
-        }
-
-        if(icon === 'fa-circle-1') {
-            console.log(style, icon, color, size);
         }
 
         let sizeClass = '';

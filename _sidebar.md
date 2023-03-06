@@ -7,3 +7,6 @@
     - [Gutenberg Block Guide](user-guide/gutenberg-block-guide)
 
 - [Developer Guide](developer-guide/)
+ 
+    - [Plugin architecture](developer-guide/plugin-architecture)
+    - [PHPDoc](developer-guide/phpdoc/)
