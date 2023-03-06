@@ -29,19 +29,19 @@ You will also find some useful resources to help you enhance the plugin.
 <div class="results-grid">
     <div>
         <p>Configuration page</p>
-        <img src="/_assets/images/plugin-configuration-page.jpg" alt="Configuration page" style="width:100%;"/>
+        <img src="./_assets/images/plugin-configuration-page.jpg" alt="Configuration page" style="width:100%;"/>
     </div>
     <div>
         <p>Integration of papers : the <code>Scholar Scraper</code> block</p>
-        <img src="/_assets/images/gutenberg-block.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
+        <img src="./_assets/images/gutenberg-block.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
     </div>
     <div>
         <p>Results with the <code>List</code> display method</p>
-        <img src="/_assets/images/gutenberg-block-list.jpg" alt="Gutenberg Block List" style="width:100%;"/>
+        <img src="./_assets/images/gutenberg-block-list.jpg" alt="Gutenberg Block List" style="width:100%;"/>
     </div>
     <div>
         <p>Results with the <code>Card</code> display method</p>
-        <img src="/_assets/images/gutenberg-block-card.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
+        <img src="./_assets/images/gutenberg-block-card.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
     </div>
 </div>
 

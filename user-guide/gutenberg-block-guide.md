@@ -51,11 +51,11 @@ The following table shows the rendering of the Gutenberg Block depending on the 
 <div class="results-grid">
     <div>
         <p>Results with the <code>List</code> display method</p>
-        <img src="/_assets/images/gutenberg-block-list.jpg" alt="Gutenberg Block List" style="width:100%;"/>
+        <img src="../_assets/images/gutenberg-block-list.jpg" alt="Gutenberg Block List" style="width:100%;"/>
     </div>
     <div>
         <p>Results with the <code>Card</code> display method</p>
-        <img src="/_assets/images/gutenberg-block-card.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
+        <img src="../_assets/images/gutenberg-block-card.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
     </div>
 </div>
 
