@@ -48,13 +48,13 @@ After saving the Gutenberg Block, you can click on the `Preview` button to see h
 The results will be displayed according to the options you have set. \
 The following table shows the rendering of the Gutenberg Block depending on the display method you can choose.
 
-<div id="results-grid">
+<div class="results-grid">
     <div>
-        <p>Result with the <code>List</code> display method</p>
+        <p>Results with the <code>List</code> display method</p>
         <img src="/_assets/images/gutenberg-block-list.jpg" alt="Gutenberg Block List" style="width:100%;"/>
     </div>
     <div>
-        <p>Result with the <code>Card</code> display method</p>
+        <p>Results with the <code>Card</code> display method</p>
         <img src="/_assets/images/gutenberg-block-card.jpg" alt="Gutenberg Block Card" style="width:100%;"/>
     </div>
 </div>
