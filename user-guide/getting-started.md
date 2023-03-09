@@ -5,7 +5,7 @@ Here are the steps to get started with Scholar Scraper.
 ?> In the following steps, we will refer to the version of the plugin as `X.Y.Z`. \
 You should replace this version number with the actual version number of the plugin you downloaded.
 
-## Prerequisites
+## Requirements
 
 To use the plugin, you need to have a Wordpress website. \
 If you don't have a Wordpress website, you can create one for free on 
@@ -37,7 +37,7 @@ Download the source code. The download of an archive named
 
 ## Install the Wordpress plugin
 
-Now that you have downloaded the plugin, you can install it in your Wordpress website. \
+Now that you have downloaded the plugin, you can install it on your Wordpress website. \
 There are two ways to install the plugin :
 
 <details open>
