@@ -9,7 +9,7 @@ window.$docsify = {
     loadSidebar: true,
     loadNavbar: true,
     maxLevel: 4,
-    subMaxLevel: 2,
+    subMaxLevel: 4,
     search: {
         noData: 'No results!',
         paths: 'auto',

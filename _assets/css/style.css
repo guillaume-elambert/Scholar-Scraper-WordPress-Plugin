@@ -171,3 +171,44 @@ img {
         width: 150px;
     }
 }
+
+/* Make code inside title about the same size as text */
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+    font-size: smaller;
+}
+
+
+/* Spacer element */
+.spacing {
+    padding-top: 6px;
+}
+
+
+/* Change elements spacing for readability */
+#main h4 {
+    margin-block-end: 0.9em;
+}
+
+#main h5 {
+    margin-block-end: 0.5em;
+}
+
+#main h4 + p,
+#main h5 + p {
+    margin-block-start: 0;
+    margin-top: 0;
+}
+
+#main ul {
+    margin-block-start: 0;
+}
+
+/* Make the paragraph before the ul not having a margin */
+#main p + ul {
+    margin-block-start: -1.2em;
+}
