@@ -5,6 +5,7 @@
     - [Getting started](user-guide/getting-started)
     - [Configuration Guide](user-guide/configuration-guide)
     - [Gutenberg Block Guide](user-guide/gutenberg-block-guide)
+    - [Known Issues](user-guide/known-issues)
 
 - [Developer Guide](developer-guide/)
  

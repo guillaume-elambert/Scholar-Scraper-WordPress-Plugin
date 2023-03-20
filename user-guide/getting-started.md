@@ -97,6 +97,23 @@ You should see the `Scholar Scraper` block in the search results. Click on it to
 
 ?> The Gutenberg block options are explained in the [Gutenberg Block Guide][gutenberg-block-guide].
 
+<br/>
+
+## Forcing the plugin to retrieve information from Google Scholar
+
+It may happen that the plugin does not retrieve information from Google Scholar (see the [`Known issues`][known-issues] section). \
+If such a situation occurs, you can force the plugin to retrieve information from Google Scholar with the following steps :
+1. Install and activate the plugin [`WP Crontrol`][wp-crontrol].
+2. Go to the `Tools` page in your Wordpress admin panel and click on the `Cron Events` menu item.
+3. Locate the event named `scholar_scraper_cron_hook` (left column) and over it with your mouse.
+4. Links should appear below the event name, click on the `Run now` link.
+
+The plugin should now retrieve information from Google Scholar. \
+Of course this will take some time so be patient.
+
+!> If a plugin execution has been interrupted (server shutdown or other issues), the manipulation may not work. \
+Indeed, as a precaution, the plugin will not retrieve information from Google Scholar if it has already done so in the last hour, unless the previous run was successful.
+
 
 <!-- References -->
 [wordpress-com]: https://wordpress.com/
@@ -106,3 +123,5 @@ You should see the `Scholar Scraper` block in the search results. Click on it to
 [github-latest-release]: https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin/releases/latest
 [configuration-guide]: /user-guide/configuration-guide
 [gutenberg-block-guide]: /user-guide/gutenberg-block-guide
+[known-issues]: /user-guide/known-issues
+[wp-crontrol]: https://wordpress.org/plugins/wp-crontrol/
