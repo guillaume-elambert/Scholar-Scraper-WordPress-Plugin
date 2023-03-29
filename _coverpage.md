@@ -1,6 +1,6 @@
 ![logo](_assets/media/google-scholar.svg ':id=logo')
 
-# Scholar Scraper <small>1.2.2</small>
+# Scholar Scraper <small>1.2.5</small>
 
 > A Wordpress plugin to scrape data from Google Scholar and display it on your website.
 
