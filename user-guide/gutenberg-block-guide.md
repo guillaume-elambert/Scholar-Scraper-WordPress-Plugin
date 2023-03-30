@@ -66,7 +66,7 @@ In the example above, the accent color is `#0577da` (a light blue color).
 !> **<u>Note :</u>** The display method where designed based on the [Twenty Twenty theme][wp-theme]. \
 If you are using a different theme, the rendering may be different. \
 If the rendering is not to your liking or if the display method is not working properly, consider following
-the [Wordpress tutorial on how to customize your theme][wp-docs-customize-theme] or to go further, please refer to
+the [WordPress tutorial on how to customize your theme][wp-docs-customize-theme] or to go further, please refer to
 the [Style section][dev-style-section] of the [Developer Guide][developer-guide]. #TODO !!
 
 

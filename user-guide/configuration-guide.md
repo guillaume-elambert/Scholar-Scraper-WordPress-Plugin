@@ -4,7 +4,7 @@ In this guide, we will explain how to configure the plugin.
 
 ## Access the plugin configuration page
 
-To access the plugin configuration page, go to the `Plugins` page in your Wordpress admin panel and click on
+To access the plugin configuration page, go to the `Plugins` page in your WordPress admin panel and click on
 the `Scholar Scraper` menu item (the icon should look like a square academic cap).
 
 You should see the plugin configuration page. Like the following :
@@ -34,8 +34,8 @@ This section contains all the options related to the plugin behavior. It is the 
 
 |              Number              |                    Option name                     | Description                                                                                                                                                                                                                                                                                                                                              |
 |:--------------------------------:|:--------------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| :fa-solid circle-1 #f44823 1.25: |               `Role of researchers`                | This option allows you to specify the Wordpress roles associated to the researchers. The plugin will use this information to determine from which users it should fetch the Google Scholar data.                                                                                                                                                         |
-| :fa-solid circle-2 #f44823 1.25: | `Metadata key associated to the Google Scholar ID` | This option allows you to specify the metadata key associated to the Google Scholar ID. The plugin will use this information to determine from which users it should fetch the Google Scholar data.<p class="warn">If you do not know what a metadata key is or how to create one, you can check the [Wordpress documentation][wp-doc-custom-field].</p> |
+| :fa-solid circle-1 #f44823 1.25: |               `Role of researchers`                | This option allows you to specify the WordPress roles associated to the researchers. The plugin will use this information to determine from which users it should fetch the Google Scholar data.                                                                                                                                                         |
+| :fa-solid circle-2 #f44823 1.25: | `Metadata key associated to the Google Scholar ID` | This option allows you to specify the metadata key associated to the Google Scholar ID. The plugin will use this information to determine from which users it should fetch the Google Scholar data.<p class="warn">If you do not know what a metadata key is or how to create one, you can check the [WordPress documentation][wp-doc-custom-field].</p> |
 | :fa-solid circle-3 #f44823 1.25: |                `Number of threads`                 | This option allows you to specify the number of threads used to fetch the Google Scholar data. The more threads you use, the faster the plugin will fetch the data. However, if you use too many threads, it might fail or cause performance.                                                                                                            |
 
 <br/>

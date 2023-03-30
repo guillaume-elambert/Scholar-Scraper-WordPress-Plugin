@@ -1,6 +1,6 @@
-# Scholar Scraper - Wordpress Plugin
+# Scholar Scraper - WordPress Plugin
 
-> A Wordpress plugin to scrape data from Google Scholar and display it on your website.
+> A WordPress plugin to scrape data from Google Scholar and display it on your website.
 
 ## What it is
 

@@ -4,7 +4,7 @@ let router;
 
 window.$docsify = {
     name: 'Scholar Scraper',
-    repo: 'https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin',
+    repo: 'https://github.com/guillaume-elambert/Scholar-Scraper-WordPress-Plugin',
     coverpage: true,
     loadSidebar: true,
     loadNavbar: true,
@@ -31,7 +31,7 @@ window.$docsify = {
             });
 
             hook.beforeEach(function (markdown) {
-                url = 'https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin/blob/docs/' + vm.route.file;
+                url = 'https://github.com/guillaume-elambert/Scholar-Scraper-WordPress-Plugin/blob/docs/' + vm.route.file;
                 let editMarkdown = '[:memo: Edit Document](' + url + ')\n';
 
                 markdown = replaceFontAwesomeIcons(markdown);

@@ -7,13 +7,13 @@ You should replace this version number with the actual version number of the plu
 
 ## Requirements
 
-To use the plugin, you need to have a Wordpress website. \
-If you don't have a Wordpress website, you can create one for free on 
-[Wordpress.com][wordpress-com] or [Wordpress.org][wordpress-org]. \
-But I assume that you already have a Wordpress website otherwise you wouldn't be reading this guide.
+To use the plugin, you need to have a WordPress website. \
+If you don't have a WordPress website, you can create one for free on 
+[WordPress.com][wordpress-com] or [WordPress.org][wordpress-org]. \
+But I assume that you already have a WordPress website otherwise you wouldn't be reading this guide.
 
-!> The plugin has been tested with **Wordpress 6.1.1** and **PHP 8.1.10**. \
-It should work with older versions of Wordpress and PHP but it has not been tested.
+!> The plugin has been tested with **WordPress 6.1.1** and **PHP 8.1.10**. \
+It should work with older versions of WordPress and PHP but it has not been tested.
 
 !> The plugin requires the [**Python 3**][python-3] interpreter to be installed on the server. \
 To check if Python 3 is installed on your server, you can install the plugin [WPTerm][wpterm] 
@@ -22,7 +22,7 @@ If the command returns the version of Python 3, then you are good to go. \
 If the command returns an error, you need to install Python 3 on your server, you can find 
 instructions on the web.
 
-Once you have a Wordpress website with Python 3 installed, you can start the installation of the plugin.
+Once you have a WordPress website with Python 3 installed, you can start the installation of the plugin.
 
 <br/>
 
@@ -31,26 +31,26 @@ Once you have a Wordpress website with Python 3 installed, you can start the ins
 The first step it to download the plugin from the Github
 repository : [latest release][github-latest-release]. \
 Download the source code. The download of an archive named 
-`Scholar-Scraper-Wordpress-Plugin-X.Y.Z.zip` should start.
+`Scholar-Scraper-WordPress-Plugin-X.Y.Z.zip` should start.
 
 <br/>
 
-## Install the Wordpress plugin
+## Install the WordPress plugin
 
-Now that you have downloaded the plugin, you can install it on your Wordpress website. \
+Now that you have downloaded the plugin, you can install it on your WordPress website. \
 There are two ways to install the plugin :
 
 <details open>
 <summary>
 
-### Option 1 : Wordpress Plugin Manager
+### Option 1 : WordPress Plugin Manager
 
 </summary>
 
 
-The easiest way to install the plugin is to use the Wordpress Plugin Manager. \
-Go to the `Plugins` page in your Wordpress admin panel and click on the `Add New` button. \
-Now click on the `Upload Plugin` button and select the `Scholar-Scraper-Wordpress-Plugin-X.Y.Z.zip` 
+The easiest way to install the plugin is to use the WordPress Plugin Manager. \
+Go to the `Plugins` page in your WordPress admin panel and click on the `Add New` button. \
+Now click on the `Upload Plugin` button and select the `Scholar-Scraper-WordPress-Plugin-X.Y.Z.zip` 
 file you downloaded earlier. \
 Click on the `Install Now` button and then on the `Activate Plugin` button.
 
@@ -65,9 +65,9 @@ Click on the `Install Now` button and then on the `Activate Plugin` button.
 
 </summary>
 
-If you prefer to install the plugin manually, you can unzip the `Scholar-Scraper-Wordpress-Plugin-X.Y.Z.zip` file and
-upload the `scholar-scraper` folder to the `wp-content/plugins` folder of your Wordpress installation. \
-Then go to the `Plugins` page in your Wordpress admin panel and activate the plugin.
+If you prefer to install the plugin manually, you can unzip the `Scholar-Scraper-WordPress-Plugin-X.Y.Z.zip` file and
+upload the `scholar-scraper` folder to the `wp-content/plugins` folder of your WordPress installation. \
+Then go to the `Plugins` page in your WordPress admin panel and activate the plugin.
 </details>
 
 <br/>
@@ -104,7 +104,7 @@ You should see the `Scholar Scraper` block in the search results. Click on it to
 It may happen that the plugin does not retrieve information from Google Scholar (see the [`Known issues`][known-issues] section). \
 If such a situation occurs, you can force the plugin to retrieve information from Google Scholar with the following steps :
 1. Install and activate the plugin [`WP Crontrol`][wp-crontrol].
-2. Go to the `Tools` page in your Wordpress admin panel and click on the `Cron Events` menu item.
+2. Go to the `Tools` page in your WordPress admin panel and click on the `Cron Events` menu item.
 3. Locate the event named `scholar_scraper_cron_hook` (left column) and over it with your mouse.
 4. Links should appear below the event name, click on the `Run now` link.
 
@@ -120,7 +120,7 @@ Indeed, as a precaution, the plugin will not retrieve information from Google Sc
 [wordpress-org]: https://wordpress.org/
 [python-3]: https://www.python.org/downloads/
 [wpterm]: https://wordpress.org/plugins/wpterm/
-[github-latest-release]: https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin/releases/latest
+[github-latest-release]: https://github.com/guillaume-elambert/Scholar-Scraper-WordPress-Plugin/releases/latest
 [configuration-guide]: /user-guide/configuration-guide
 [gutenberg-block-guide]: /user-guide/gutenberg-block-guide
 [known-issues]: /user-guide/known-issues

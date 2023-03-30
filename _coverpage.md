@@ -2,12 +2,12 @@
 
 # Scholar Scraper <small>1.2.5</small>
 
-> A Wordpress plugin to scrape data from Google Scholar and display it on your website.
+> A WordPress plugin to scrape data from Google Scholar and display it on your website.
 
 - Regularly scrape your users' Google Scholar papers
 - Integrate Google Scholar papers using a Gutenberg block
 - Customize the display of scraped data
 - Search for papers by author, title, or keywords
 
-[<i class="fa-brands fa-github"></i> GitHub](https://github.com/guillaume-elambert/Scholar-Scraper-Wordpress-Plugin)
+[<i class="fa-brands fa-github"></i> GitHub](https://github.com/guillaume-elambert/Scholar-Scraper-WordPress-Plugin)
 [Getting Started <i class="fa-regular fa-angles-down"></i>](#scholar-scraper-wordpress-plugin)
